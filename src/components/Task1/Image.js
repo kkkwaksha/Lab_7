@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import poznanImg from "../../assets/images/poznan.png"
 
 function Image() {
   const [size, setSize] = useState(700);
@@ -27,7 +28,7 @@ function Image() {
     <div>
       {size > 0 && (
         <img
-          src="/assets/images/poznan.png"
+          src={poznanImg}
           alt="Познань"
           style={{ width: `${size}px` }}
         />

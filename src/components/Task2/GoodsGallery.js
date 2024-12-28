@@ -1,14 +1,20 @@
 import React from "react";
 import GoodsCard from "./GoodsCard";
+import bananaImg from "../../assets/images/banana.png";
+import strawberryImg from "../../assets/images/strawberry.png";
+import cherriesImg from "../../assets/images/cherries.png";
+import nectarineImg from "../../assets/images/nectarine.png";
+import pineappleImg from "../../assets/images/pineapple.png";
+import watermelonImg from "../../assets/images/watermelon.png";
 
 function GoodsGallery() {
   const goods = [
-    { id: 1, image: "/assets/images/banana.png", name: "Банан", price: 100 },
-    { id: 2, image: "/assets/images/strawberry.png", name: "Полуниця", price: 120 },
-    { id: 3, image: "/assets/images/cherries.png", name: "Черешня", price: 150 },
-    { id: 4, image: "/assets/images/nectarine.png", name: "Нектарин", price: 145 },
-    { id: 5, image: "/assets/images/pineapple.png", name: "Ананас", price: 300 },
-    { id: 6, image: "/assets/images/watermelon.png", name: "Кавун", price: 50 },
+    { id: 1, image: bananaImg, name: "Банан", price: 100 },
+    { id: 2, image: strawberryImg, name: "Полуниця", price: 120 },
+    { id: 3, image: cherriesImg, name: "Черешня", price: 150 },
+    { id: 4, image: nectarineImg, name: "Нектарин", price: 145 },
+    { id: 5, image: pineappleImg, name: "Ананас", price: 300 },
+    { id: 6, image: watermelonImg, name: "Кавун", price: 50 },
   ];
 
   return (
