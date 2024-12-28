@@ -27,7 +27,7 @@ function Image() {
     <div>
       {size > 0 && (
         <img
-          src="/images/poznan.png"
+          src="./assets/images/poznan.png"
           alt="Познань"
           style={{ width: `${size}px` }}
         />
